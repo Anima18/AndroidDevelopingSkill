@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     public void initData() {
         activityClassList = new ArrayList<>();
 
-        activityClassList.add(new ActivityClass("ListView", null));
+        activityClassList.add(new ActivityClass("运行时权限", RuntimePermissionsActivity.class));
     }
 
     public void initEvent() {
